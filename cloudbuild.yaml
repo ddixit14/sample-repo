@@ -1,6 +1,5 @@
 steps:
   - name: gcr.io/cloud-builders/mvn
-    entrypoint: 'mvn'
     args: ['deploy']
 artifacts:
   objects:
