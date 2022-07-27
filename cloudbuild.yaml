@@ -3,5 +3,5 @@ steps:
     args: ['deploy']
 artifacts:
   objects:
-    location: 'gs://sample_storage_bucket_artifacts/'
+    location: 'gs://sample_storage_bucket_artifacts//'
     paths: ['workspace/target/classes/com/mycompany/app/App.class']
