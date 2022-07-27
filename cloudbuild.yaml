@@ -5,5 +5,5 @@ steps:
 artifacts:
   objects:
     location: 'gs://sample_storage_bucket_artifacts'
-    paths: ['*.class']
+    paths: ['target/my-app-1.0.0.jar']
 
