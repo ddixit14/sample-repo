@@ -5,5 +5,5 @@ steps:
 artifacts:
   objects:
     location: 'gs://sample_storage_bucket_artifacts'
-    paths: ['*.jar']
+    paths: ['*.']
 
