@@ -1,8 +1,0 @@
-steps:
-  - name: gcr.io/cloud-builders/mvn
-    args: ['validate']
-artifacts:
-  objects:
-    location: 'gs://sample_storage_bucket_artifacts'
-    paths: ['target/my-app-1.0.0.jar']
-

@@ -1,0 +1,10 @@
+{
+  "steps": [
+  {
+    "name": "bash",
+    "args": [
+      "./myscript.sh"
+     ]
+  }
+  ]
+}
